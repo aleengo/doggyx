@@ -1,6 +1,6 @@
 {
   "name": "doggyx",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Oprn wrapper",
   "main": "index.js",
   "directories": {
