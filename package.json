@@ -1,7 +1,7 @@
 {
   "name": "doggyx",
-  "version": "1.1.0",
-  "description": "Oprn wrapper",
+  "version": "1.2.0",
+  "description": "Porn wrapper",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -12,19 +12,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gnemoka/doggyx.git"
+    "url": "git+https://github.com/aleengo/doggyx.git"
   },
   "keywords": [
-    "oprn",
-    "wrapper"
+    "porn",
+    "sex"
   ],
-  "author": "gnemoka",
-  "license": "MIT",
+  "author": "aleengo",
+  "license": "GNU GPLv3",
   "bugs": {
-    "url": "https://github.com/gnemoka/doggyx/issues"
+    "url": "https://github.com/aleengo/doggyx/issues"
   },
-  "homepage": "https://github.com/gnemoka/doggyx#readme",
+  "homepage": "https://github.com/aleengo/doggyx#readme",
   "devDependencies": {
-    "debug": "^3.1.0"
+    "debug": "^3.2.5"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
   }
 }
