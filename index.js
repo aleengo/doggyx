@@ -1,1 +1,3 @@
-module.exports = require('./lib/doggyx');
+'use strict';
+
+module.exports = require('./lib');
