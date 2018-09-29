@@ -4,7 +4,7 @@
 Porn dot com wrapper
 
 # Installation
-`npm install --save doggyx`
+`npm install --save @aleengo/doggyx`
 
 # Documentation
 
