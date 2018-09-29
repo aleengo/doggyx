@@ -1,7 +1,7 @@
 {
-  "name": "doggyx",
+  "name": "@aleengo/doggyx",
   "version": "1.2.1",
-  "description": "Porn wrapper",
+  "description": "Porn dot com wrapper",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -15,7 +15,11 @@
   },
   "keywords": [
     "porn",
-    "sex"
+    "adults",
+    "adult-content",
+    "adults-only",
+    "sex",
+    "porn.com"
   ],
   "author": "aleengo",
   "license": "GNU GPLv3",

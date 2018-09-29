@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/aleengo/doggyx.svg?branch=master)](https://travis-ci.com/aleengo/doggyx)
 
 # doggyx
-Porn wrapper
+Porn dot com wrapper
 
 # Installation
 `npm install --save doggyx`
@@ -36,8 +36,8 @@ Porn wrapper
 #### Examples
 
 ```javascript
-  const doggyx = require('doggyx');
-  doggyx.videos.search()
+  const porn = require('@aleengo/doggyx');
+  porn.videos.search()
     .then( res => res.data )
     .then( videos => console.log(videos))
     .catch( err => err );
@@ -60,8 +60,8 @@ Porn wrapper
 #### Examples
 
 ```javascript
-  const doggyx = require('doggyx');
-  doggyx.actors.search()
+  const porn = require('@aleengo/doggyx');
+  porn.actors.search()
     .then( res => res.data )
     .then( actors => console.log(actors))
     .catch( err => err );
@@ -80,11 +80,12 @@ Porn wrapper
 | order     | date, views, rating, favorites| date | Results order |
 | name      | string | null | Name of the channel to retrieve |
 | cats      | string | null | Comma-separated list of categories to filter by |
+
 #### Examples
 
 ```javascript
-  const doggyx = require('doggyx');
-  doggyx.channels.search()
+  const porn = require('@aleengo/doggyx');
+  porn.channels.search()
     .then( res => res.data )
     .then( channels => console.log(channels))
     .catch( err => err );
@@ -108,8 +109,8 @@ Porn wrapper
 #### Examples
 
 ```javascript
-  const doggyx = require('doggyx');
-  doggyx.dvds.search()
+  const porn = require('@aleengo/doggyx');
+  porn.dvds.search()
     .then( res => res.data )
     .then( dvds => console.log(dvds))
     .catch( err => err );
@@ -117,13 +118,13 @@ Porn wrapper
 
 ## categories
 
-* `search(params)`
+* `search()`
 
 #### Examples
 
 ```javascript
-  const doggyx = require('doggyx');
-  doggyx.categories.search()
+  const porn = require('@aleengo/doggyx');
+  porn.categories.search()
     .then( res => res.data )
     .then( categories => console.log(categories))
     .catch( err => err );
